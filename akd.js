@@ -12,6 +12,7 @@ loader.load(bot.cmd,"./komutlar/")
 bot.onJoin()
 bot.onLeave()
 bot.onMessage()
+bot.onInteractionCreate()
 
 ////////// Durum \\\\\\\\\\
 bot.status({
