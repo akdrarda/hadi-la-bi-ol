@@ -15,7 +15,7 @@ bot.onMessage()
 
 ////////// Durum \\\\\\\\\\
 bot.status({
-text:"Tokyo Code",
+text:"AKD DEVELOMENT",
 type:"PLAYING",
 status:"dnd",
 time: 12
@@ -32,6 +32,6 @@ name:"ping",
 aliases:"gecikme",
 description:"Botun pingini gösterir.",
 code:`
-Pong! \`$botPingms\`
+Pong! \`$ping\`
 `
 })
