@@ -12,9 +12,9 @@ loader.load(bot.cmd,"./komutlar/")
 const { joinVoiceChannel } = require('@discordjs/voice');
 	bot.on('ready', () => { 
 		joinVoiceChannel({
-		channelId: "SES KANALI İD",
-		guildId: "SUNUCU İD",       
-		adapterCreator: bot.guilds.cache.get("SUNUCU İD").voiceAdapterCreator
+		channelId: "994157312950407168",
+		guildId: "994002258658345120",       
+		adapterCreator: bot.guilds.cache.get("994002258658345120").voiceAdapterCreator
 		});
 });
 
