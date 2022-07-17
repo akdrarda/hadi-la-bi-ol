@@ -8,6 +8,17 @@ intents: "all"
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./komutlar/")
 
+
+const { joinVoiceChannel } = require('@discordjs/voice');
+	bot.on('ready', () => { 
+		joinVoiceChannel({
+		channelId: "SES KANALI İD",
+		guildId: "SUNUCU İD",       
+		adapterCreator: bot.guilds.cache.get("SUNUCU İD").voiceAdapterCreator
+		});
+});
+
+
 ////////// Callbackler \\\\\\\\\\
 bot.onJoin()
 bot.onLeave()
